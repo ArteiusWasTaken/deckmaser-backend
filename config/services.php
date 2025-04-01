@@ -34,5 +34,7 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'pokemontcg' => [
+        'key' => env('POKEMON_TCG_API_KEY'),
+    ],
 ];
